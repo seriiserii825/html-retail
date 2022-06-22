@@ -1,0 +1,21 @@
+//100	Тонкий (Волосяной) Thin (Hairline)
+//200	Дополнительный светлый (Сверхсветлый) Extra Light (Ultra Light)
+//300	Светлый Light
+//400	Нормальный Normal
+//500	Средний Medium
+//600	Полужирный Semi Bold (Demi Bold)
+//700	Жирный Bold
+//800	Дополнительный жирный (Сверхжирный) Extra Bold (Ultra Bold)
+//900	Черный (Густой)Black (Heavy)
+@font-face {
+  font-family: "TodaySHOP-Bold";
+  src: local("TodaySHOP-Bold"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "TodaySHOP-Medium";
+  src: local("TodaySHOP-Medium"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "TodaySHOP-Light";
+  src: local("TodaySHOP-Light"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Light.otf") format("opentype");
+}

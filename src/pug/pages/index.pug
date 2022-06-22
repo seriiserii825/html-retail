@@ -1,0 +1,14 @@
+extends template
+
+block css
+    link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+    title Main
+
+block content
+    include ../includes/mixins
+    include ../includes/header
+
+block scripts
+    script(src="assets/js/dist/webpack.js")

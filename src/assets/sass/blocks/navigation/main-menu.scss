@@ -1,0 +1,31 @@
+.main-menu {
+  display: flex;
+  align-items: center;
+  li {
+    &:last-of-type {
+      position: relative;
+      a {
+        position: relative;
+        padding-left: 3.6rem;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        top: -0.2rem;
+        left: 1.6rem;
+        width: 2.3rem;
+        height: 2rem;
+        background: url(../i/svg/header-icon.svg) no-repeat center;
+      }
+    }
+  }
+  a {
+    display: block;
+    margin-left: 1.3rem;
+    font-family: "TodaySHOP-Medium", sans-serif;
+    font-size: 2.2rem;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+    color: white;
+  }
+}
