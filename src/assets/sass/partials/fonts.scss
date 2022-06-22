@@ -9,13 +9,17 @@
 //900	Черный (Густой)Black (Heavy)
 @font-face {
   font-family: "TodaySHOP-Bold";
-  src: local("TodaySHOP-Bold"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Bold.otf") format("opentype");
+  src: local("TodaySHOP-Bold"), local("Lovely-Font"), url("../../assets/fonts/TodaySHOP-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "TodaySHOP-Medium";
-  src: local("TodaySHOP-Medium"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Medium.otf") format("opentype");
+  src: local("TodaySHOP-Medium"), local("Lovely-Font"), url("../../assets/fonts/TodaySHOP-Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "TodaySHOP-Light";
-  src: local("TodaySHOP-Light"), local("Lovely-Font"), url("/assets/fonts/TodaySHOP-Light.otf") format("opentype");
+  src: local("TodaySHOP-Light"), local("Lovely-Font"), url("../../assets/fonts/TodaySHOP-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "TodaySHOP-Regular";
+  src: local("TodaySHOP-Regular"), local("Lovely-Font"), url("../../assets/fonts/TodaySHOP-Regular.otf") format("opentype");
 }

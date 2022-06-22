@@ -1,6 +1,32 @@
 .main-menu {
   display: flex;
   align-items: center;
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+  &.fixed {
+    position: fixed;
+    top: 6.7rem;
+    left: 0;
+    display: block;
+    padding: 2rem 0;
+    width: 100%;
+    z-index: 999;
+    background-color: black;
+    li:last-of-type {
+      a {
+        padding-left: 4.6rem;
+      }
+      &::before {
+        top: 0.7rem;
+        left: 2rem;
+      }
+    }
+    a {
+      display: block;
+      padding: 1rem;
+    }
+  }
   li {
     &:last-of-type {
       position: relative;
@@ -12,18 +38,18 @@
         content: '';
         position: absolute;
         top: -0.2rem;
-        left: 1.6rem;
-        width: 2.3rem;
-        height: 2rem;
+        left: 3rem;
+        width: 23px;
+        height: 20px;
         background: url(../i/svg/header-icon.svg) no-repeat center;
       }
     }
   }
   a {
     display: block;
-    margin-left: 1.3rem;
+    margin-left: 2.7rem;
     font-family: "TodaySHOP-Medium", sans-serif;
-    font-size: 2.2rem;
+    font-size: 22px;
     letter-spacing: -0.1px;
     text-decoration: none;
     color: white;

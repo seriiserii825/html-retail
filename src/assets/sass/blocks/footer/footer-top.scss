@@ -1,0 +1,113 @@
+.main-footer {
+  color: white;
+  background: #212121;
+  &-top {
+    padding-top: 4.3rem;
+    &__container {
+      margin: 0 auto;
+      max-width: 1200px;
+      padding-left: 17.4rem;
+      @media screen and (max-width: 1200px) {
+        padding: 0 3rem;
+      }
+    }
+    &__title {
+      margin-bottom: 1rem;
+      font-family: "TodaySHOP-Regular", sans-serif;
+      font-size: 2.2rem;
+      font-weight: normal;
+      letter-spacing: 0.02rem;
+    }
+    &__wrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 3.1rem;
+      @media screen and (max-width: 1200px) {
+        margin-right: 0;
+        justify-content: space-between;
+      }
+      @media screen and (max-width: 768px) {
+      	flex-wrap: wrap;
+      }
+    }
+    &__menu,
+    &__app,
+    &__contacts {
+      margin-right: 9rem;
+      @media screen and (max-width: 768px) {
+        margin: 0 0 6rem;
+      	width: 50%;
+      }
+      a {
+        font-family: "TodaySHOP-Regular", sans-serif;
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: #9d9d9d;
+      }
+    }
+    &__store {
+      ul {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.2rem;
+        a {
+          display: block;
+          margin-right: 1.9rem;
+        }
+      }
+      img {
+        width: 10rem;
+        height: 3.2rem;
+      }
+    }
+    &__tags {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.6rem;
+      span {
+        display: inline-block;
+        margin-right: 0.3rem;
+        font-family: "TodaySHOP-Bold", sans-serif;
+        font-size: 2.2rem;
+      }
+    }
+    &__socials {
+      li {
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 2rem;
+          width: 6.4rem;
+          height: 4rem;
+          border-radius: 0.8rem;
+          border: 1px solid white;
+          img {
+            width: auto;
+            height: 2rem;
+          }
+        }
+      }
+    }
+    &__links {
+      position: relative;
+      left: -9.1rem;
+      padding: 2rem 0;
+      @media screen and (max-width: 1200px) {
+      	left: 0;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        margin: 0 1.6rem;
+        font-family: "TodaySHOP-Regular", sans-serif;
+        font-size: 1.8rem;
+        color: #9d9d9d;
+      }
+    }
+  }
+}
