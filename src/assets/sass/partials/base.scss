@@ -69,40 +69,6 @@ p {
   background: white;
   overflow: hidden;
 }
-* {
-  box-sizing: border-box;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-ul {
-  @include reset-list;
-}
-p {
-  margin: 0;
-  padding: 0;
-  @media screen and (max-width: 1200px) {
-    font-size: 2.2rem;
-  }
-}
-.hidden {
-  display: none;
-}
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1326px;
-}
 input[type="submit"]:disabled {
   cursor: not-allowed !important;
   opacity: 0.6 !important;
