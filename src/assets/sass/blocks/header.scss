@@ -1,25 +1,25 @@
 .main-header {
   padding: 3rem 0 1rem;
   background: #121212;
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width-t: 1500px) {
     padding: 2.2rem 3rem;
   }
-  @media screen and (max-width: 992px) {
-    width: 100vw;
+  @media screen and (max-width-t: 992px) {
+    width-t: 100vw;
   }
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 1404px;
+    max-width-t: 1404px;
   }
   &__logo {
     display: block;
-    width: 41.5rem;
+    width-t: 41.5rem;
     height: 8.5rem;
-    @media screen and (max-width: 992px) {
-      width: 20rem;
+    @media screen and (max-width-t: 992px) {
+      width-t: 20rem;
       height: 4rem;
     }
   }
